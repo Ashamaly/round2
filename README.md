@@ -23,6 +23,13 @@ User stories are included on the trello board.
 
 ![sitemap](/docs/sitemap.png)
 
+## Screenshots
+
+
+
+
+## Wireframes
+
 ![wireframe1](/docs/wireframe1.png)
 
 ![wireframe1](/docs/wireframe2.png)
@@ -32,16 +39,6 @@ User stories are included on the trello board.
 ![wireframe1](/docs/wireframe4.png)
 
 ![wireframe1](/docs/wireframe5.png)
-
-## Screenshots
-
-
-
-
-## Wireframes
-
-
-
 
 ## ERD
 
