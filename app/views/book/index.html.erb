@@ -1,0 +1,21 @@
+<h1>Book#index</h1>
+
+<table>
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Price</td>
+            <td>Author</td>
+        </tr>
+    </thead>
+    <tbody>
+        <% Book.all.each do |book| %>
+            <tr>
+                <td><%= book.title %></td>
+                <td><%= book.price %></td>
+                <td><%= "#{book.user.first_name} #{book.user.last_name}" %></td>
+                <td><%= link_to 'edit', edit_book_path(book) %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
