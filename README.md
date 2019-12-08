@@ -23,6 +23,16 @@ User stories are included on the trello board.
 
 ![sitemap](/docs/sitemap.png)
 
+![wireframe1](/docs/wireframe1.png)
+
+![wireframe1](/docs/wireframe2.png)
+
+![wireframe1](/docs/wireframe3.png)
+
+![wireframe1](/docs/wireframe4.png)
+
+![wireframe1](/docs/wireframe5.png)
+
 ## Screenshots
 
 
