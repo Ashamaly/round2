@@ -42,6 +42,7 @@ User stories are included on the trello board.
 
 ## ERD
 
+![erd](/docs/erd.png)
 
 ## Target Audience 
 
