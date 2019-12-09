@@ -1,2 +1,22 @@
-<h1>Book#show</h1>
-<p>Find me in app/views/book/show.html.erb</p>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @book.price %>
+</p>
+
+<p>
+  <strong>Posted by:</strong>
+  <%= "#{@book.user.first_name} #{@book.user.last_name}" %>
+</p>
+ 
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', root_path %> |
+<%= link_to 'Buy now!', root_path %>
+<br />
+<%= link_to 'Destroy', @book, method: :delete, data: { confirm: 'Are you sure?' } %>
