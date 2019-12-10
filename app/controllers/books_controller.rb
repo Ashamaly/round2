@@ -9,6 +9,7 @@ class BooksController < ApplicationController
   end
 
   def edit
+    @book = Book.find(params[:id])
   end
 
   def new
@@ -28,6 +29,10 @@ class BooksController < ApplicationController
   end
 
   def update
+    if Book.find(params[:id]).update_attributes(params.require(:book).permit(:title, :price))
+      flash[:success] = "Your listing has been changed!"
+      redirect_to root_path
+    end
   end
 
   def destroy
