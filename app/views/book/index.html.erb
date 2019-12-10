@@ -9,7 +9,6 @@
 </head>
 
 <body>
-<%= render 'navbar' %>
 
 <table class="table">
     <thead>
@@ -25,7 +24,6 @@
                 <td><%= book.title %></td>
                 <td><%= book.price %></td>
                 <td><%= "#{book.user.first_name} #{book.user.last_name}" %></td>
-                <td><%= link_to 'edit', edit_book_path(book) %></td>
                 <td><%= link_to 'show', book %></td>
             </tr>
         <% end %>
