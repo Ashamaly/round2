@@ -19,4 +19,7 @@
 <%= link_to 'Back', root_path %> |
 <%= link_to 'Buy now!', root_path %>
 <br />
-<%= link_to 'Destroy', @book, method: :delete, data: { confirm: 'Are you sure?' } %>
+# checks if user is an admin before displaying delete button
+<% if current_user.has_role?(:admin) %>
+<%= link_to 'Delete', @book, method: :delete, data: { confirm: 'Are you sure?' } %>
+<% end %>
