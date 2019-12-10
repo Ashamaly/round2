@@ -1,0 +1,17 @@
+<nav class="navbar">
+  <div class="">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="/">Nozama</a>
+      <% if user_signed_in? %>
+        <p>Welcome <%= current_user.username %>!</p>
+
+        <div>
+          <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+        </div>
+        <% else %>
+        <p>You are not logged in, <%= link_to 'sign up', new_user_registration_path %> or <%= link_to 'log in!', new_user_session_path %></p>
+      <% end %>
+    </div>
+
+  </div>
+</nav>

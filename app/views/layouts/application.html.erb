@@ -11,7 +11,10 @@
   </head>
 
   <body>
-  <%= render 'navbar' %>
+    <%= render 'partials/navbar' %>
+    <% if flash[:error] %>
+      <p class="error"><%= flash[:error] %></p>
+    <% end %>
     <%= yield %>
   </body>
 

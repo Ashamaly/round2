@@ -21,7 +21,7 @@
 <%= link_to 'Buy now!', root_path %> |
 <br /> <br />
 <!--  checks if user is an admin before displaying delete button or the owner of the listing -->
-<% if current_user.has_role?(:admin) || current_user.id === @book.user_id %>
+<% if user_signed_in? && (current_user.has_role?(:admin) || current_user.id === @book.user_id)%>
 | <%= link_to 'Delete', @book, method: :delete, data: { confirm: 'Are you sure?' } %> |
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <% end %>
