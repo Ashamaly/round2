@@ -20,6 +20,7 @@ User.create(
       password_confirmation: 'password',
       first_name: 'user',
       last_name: i
+      username: "username#{i}"
     }
   end
 )
