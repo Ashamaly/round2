@@ -64,3 +64,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "devise", "~> 4.7"
 
 gem "bulma", "~> 0.1.0"
+
+gem "cloudinary", "~> 1.13"
+
+gem "activestorage-cloudinary-service"
