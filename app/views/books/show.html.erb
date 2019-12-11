@@ -5,7 +5,7 @@
   <% if @book.bookImage.attached? %>
     <%= image_tag @book.bookImage, width: 250 %>
     <% else %>
-    <%= image_tag "blankcover.jpg", width: 250, alt: "Default image" %>
+    <p>No book image was uploaded for this listing!</p>
     <% end %>
 </p>
 
