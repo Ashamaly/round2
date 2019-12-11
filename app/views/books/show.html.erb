@@ -11,7 +11,7 @@
 
 <p>
   <strong>Title:</strong>
-  <%= @book.title %>
+  <%= sanitize @book.title %>
 </p>
 
 <p>
@@ -21,7 +21,7 @@
 
 <p>
   <strong>Posted by:</strong>
-  <%= "#{@book.user.first_name} #{@book.user.last_name}" %>
+  <%= sanitize "#{@book.user.first_name} #{@book.user.last_name}" %>
 </p>
  
 

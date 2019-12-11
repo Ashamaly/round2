@@ -19,7 +19,7 @@ User.create(
       password: 'password',
       password_confirmation: 'password',
       first_name: 'user',
-      last_name: i
+      last_name: i,
       username: "username#{i}"
     }
   end
