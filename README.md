@@ -1,6 +1,6 @@
 # Nozama
 
-[The app](temp)
+[The app](https://bookshopdrxtfchgvjb.herokuapp.com/)
 
 [Source](https://github.com/Ashamaly/chat-app)
 
