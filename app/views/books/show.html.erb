@@ -2,11 +2,10 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-<%#if there is an image attached, display it else display default placeholder %>
   <% if @book.bookImage.attached? %>
     <%= image_tag @book.bookImage, width: 250 %>
     <% else %>
-      <img src="/assets/blankcover.jpg", width: 250, alt="Default image">
+    <%= image_tag "blankcover.jpg", width: 250, alt: "Default image" %>
     <% end %>
 </p>
 
