@@ -68,3 +68,5 @@ gem "bulma", "~> 0.1.0"
 gem "cloudinary", "~> 1.13"
 
 gem "activestorage-cloudinary-service"
+
+gem 'rails_12factor', group: :production

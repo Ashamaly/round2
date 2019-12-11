@@ -6,7 +6,7 @@
   <% if @book.bookImage.attached? %>
     <%= image_tag @book.bookImage, width: 250 %>
     <% else %>
-      <img src="/assets/blankcover.jpg", width: 250, alt="Default image">
+      <%= link_to image_tag("blankcover.jpg") %>
     <% end %>
 </p>
 
