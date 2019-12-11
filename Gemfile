@@ -69,4 +69,3 @@ gem "cloudinary", "~> 1.13"
 
 gem "activestorage-cloudinary-service"
 
-gem 'rails_12factor', group: :production
