@@ -15,7 +15,9 @@ This app is a simple marketplace app allowing users to create listings of books 
 
 ## Planning
 
-Planning was short and sweet. I mapped out the things I needed to accomplish in a short time on a notebook and on Trello. I already knew what I needed to make and I just needed to lay out a short and sweet plan to check off tasks as I completed them.
+Planning was short and sweet. I mapped out the things I needed to accomplish in a short time on a notebook and on Trello. I already knew what I needed to make and I just needed to lay out a short and sweet plan to check off tasks as I completed them. Due to time contraints I was unable to achieve everythingI wanted to in this project.
+
+![trello](/docs/trello.png)
 
 User stories are included on the trello board.
 
@@ -25,6 +27,13 @@ User stories are included on the trello board.
 
 ## Screenshots
 
+![screenshot1](/docs/screen1.png)
+
+![screenshot2](/docs/screen2.png)
+
+![screenshot4](/docs/screen3.png)
+
+![screenshot5](/docs/screen4.png)
 
 
 
@@ -32,13 +41,13 @@ User stories are included on the trello board.
 
 ![wireframe1](/docs/wireframe1.png)
 
-![wireframe1](/docs/wireframe2.png)
+![wireframe2](/docs/wireframe2.png)
 
-![wireframe1](/docs/wireframe3.png)
+![wireframe3](/docs/wireframe3.png)
 
-![wireframe1](/docs/wireframe4.png)
+![wireframe4](/docs/wireframe4.png)
 
-![wireframe1](/docs/wireframe5.png)
+![wireframe5](/docs/wireframe5.png)
 
 ## ERD
 
@@ -60,3 +69,5 @@ The tech stack used is HTML, CSS, Ruby on Rails and Javascript.
 
 The gems I used in this app are:
 1. Devise
+2. Bulma
+3. Cloudinary
